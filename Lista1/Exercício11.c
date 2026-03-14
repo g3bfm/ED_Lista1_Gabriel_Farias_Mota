@@ -5,12 +5,12 @@ int main() {
     float vetor[10], soma = 0;
     int negativos = 0, i;
 
-    for(i = 0; i < 10; i++) {
+    for(i = 1; i < 11; i++) {
     	printf("Digite um numero: ");
         scanf("%f", &vetor[i]);
     }
 
-    for(i = 0; i < 10; i++) {
+    for(i = 1; i < 11; i++) {
         if(vetor[i] < 0) {
             negativos++;
         } else {
